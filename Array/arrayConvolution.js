@@ -1,7 +1,7 @@
 "use strict"
 
-function arrayConvolution(arr) {
-    const newArray = arr.reduce((newArr, el) => {
+function arrayConvolution() {
+    const newArray = this.reduce((newArr, el) => {
         return newArr.concat(el);
     }, []);
 

@@ -1,11 +1,11 @@
 "use strict"
 
-function reverseArray(arr) {
+function reverseArray() {
     const reversedArray = Array();
 
     let i = 0;
-    while(i < arr.length) {
-        reversedArray.unshift(arr.at(i));
+    while(i < this.length) {
+        reversedArray.unshift(this.at(i));
 
         ++i;
     };

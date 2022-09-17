@@ -1,10 +1,10 @@
 "use strict"
 
-function arrayToList(arr) {
+function arrayToList() {
     var list = {};
     const rests = [];
 
-    arr.forEach(el => {
+    this.forEach(el => {
         rests.push({
             value: el,
             rest: {}

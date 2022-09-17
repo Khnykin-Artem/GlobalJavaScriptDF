@@ -1,11 +1,11 @@
 "use strict"
 
-function sumInArr(arr) {
+function sumInArr() {
     var sum = 0;
 
     let i = 0;
-    while(i < arr.length) {
-        sum += Number(arr[i]);
+    while(i < this.length) {
+        sum += Number(this[i]);
         ++i;
     };
 

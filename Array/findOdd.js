@@ -1,24 +1,24 @@
 "use strict"
 
-function findOdd(arr) {
+function findOdd() {
     const returnF = function(num) {
       return num;
     };
   
     let i = 0;
-    while(i < arr.length) {
-      let checkEl = arr[i];
+    while(i < this.length) {
+      let checkEl = this[i];
       var countCheckEl = {
         value: 0,
         num: null
       };
   
-      arr.forEach((value, key) => {
+      this.forEach((value, key) => {
         if(value === checkEl) {
           countCheckEl.value++;
         };
   
-        if(key === (arr.length - 1)) {
+        if(key === (this.length - 1)) {
             ((Number.isInteger(countCheckEl.value / 2)))
             ||
             (countCheckEl.num = checkEl);

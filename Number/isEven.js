@@ -1,11 +1,11 @@
 "use strict"
 
-function isEven(x) {
-    if(x === 0) {
+function isEven() {
+    if(this === 0) {
         return true;
-    } else if(x === 1) {
+    } else if(this === 1) {
         return false;
     } else {
-        return isEven(x - 2);
+        return isEven(this - 2);
     };
 };

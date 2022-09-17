@@ -1,14 +1,14 @@
 "use strict"
 
-function reverseArrayInPlace(arr) {
+function reverseArrayInPlace() {
     const reversedArrayInPlace = [];
 
-    const firstEl = arr[0];
-    const lastEl = arr[arr.length - 1];
+    const firstEl = this[0];
+    const lastEl = this[this.length - 1];
 
-    let i = arr.lastIndexOf(lastEl);
+    let i = this.lastIndexOf(lastEl);
     while(i >= 0) {
-        reversedArrayInPlace.push(arr[i])
+        reversedArrayInPlace.push(this[i])
         
         i--;
     };
