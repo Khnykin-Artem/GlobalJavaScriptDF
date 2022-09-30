@@ -1,7 +1,7 @@
 "use strict"
 
 function loop(condition, body, i) {
-    if(condition()) {
+    while(condition()) {
         body();
         i();
     };
