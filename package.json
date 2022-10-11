@@ -1,0 +1,20 @@
+{
+  "name": "globaljavascriptdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "GlobalJavaScript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhnykinArtem/GlobalJavaScriptDF.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhnykinArtem/GlobalJavaScriptDF/issues"
+  },
+  "homepage": "https://github.com/KhnykinArtem/GlobalJavaScriptDF#readme"
+}

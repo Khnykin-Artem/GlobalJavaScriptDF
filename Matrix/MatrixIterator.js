@@ -1,3 +1,7 @@
 "use strict"
 
-class MatrixIterator {}
+class MatrixIterator {
+
+    constructor() {}
+
+}
