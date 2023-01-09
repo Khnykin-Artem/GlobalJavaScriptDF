@@ -2,7 +2,19 @@
 
 function printerError(s, range) {
     const [x, y] = range;
+    const regExp = /[^x-y]/;
+
+    const result = String(s).match(regExp);
+    const coincidence = result?.[0];
+    console.log(result)
+    if(coincidence === null) {
+        return `${coincidence.length}/${s.length}`;
+    } else {
+        return `${0}/${s.length}`;
+    }
 }
+
+console.log(printerError('abcdzzzzz', ['a', 'c']))
 
 // На заводе принтер печатает этикетки для коробок. Для одного вида коробок принтер должен использовать цвета, которые для простоты названы буквами из a to m.
 
